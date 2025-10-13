@@ -114,11 +114,20 @@
   background-color: #30394c !important;
 }
 
+.glgl-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #ffffff;
+
+}
 
 
-
-
-
+.Section-bg-color{
+  background-color: #ececec !important;
+}
 
 
 
@@ -2903,11 +2912,11 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #ffc800;
-  --bs-btn-border-color: #ffc800;
+  --bs-btn-bg: #30394c;
+  --bs-btn-border-color: #30394c;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #d9aa00;
-  --bs-btn-hover-border-color: #cca000;
+  --bs-btn-hover-bg: #888d99;
+  --bs-btn-hover-border-color: #888d99;
   --bs-btn-focus-shadow-rgb: 255, 208, 38;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #cca000;
@@ -10935,7 +10944,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #ffffff;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10943,6 +10952,7 @@ p {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 700;
+  color: #30394c;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
@@ -10952,7 +10962,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 2rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10969,7 +10979,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: #ffffff;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -10983,14 +10993,14 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #9cd0e1;
+    background-color: #ffffff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 3.5rem;
+    height: 4rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -11004,7 +11014,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/wallpapera.jpg");
+  background-image: url("../assets/img/6.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11027,6 +11037,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
+    height: 100vh;
     padding-top: 17rem;
     padding-bottom: 17rem;
   }
@@ -11058,11 +11069,15 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(48, 57, 76, 0.9);
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
+  -webkit-transition: opacity ease-in-out 0.25s;
+  -moz-transition: opacity ease-in-out 0.25s;
+  -ms-transition: opacity ease-in-out 0.25s;
+  -o-transition: opacity ease-in-out 0.25s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
